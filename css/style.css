@@ -19,7 +19,7 @@ html {
 }
 /* scroll snap */
 @media (max-width:720px ) {
-  .botones-footer, .output, .entry input, .logo{
+  .logo, .botones-footer, .copiar{
     scroll-snap-align: center;
     scroll-snap-stop: always;
   }
