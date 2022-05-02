@@ -18,10 +18,13 @@ html {
   scroll-snap-type: y mandatory;
 }
 /* scroll snap */
-.output, .logo{
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
+@media (max-width:1200px ) {
+  .output, .logo{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
