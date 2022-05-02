@@ -15,15 +15,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  scroll-snap-type: y mandatory;
+  
 }
-/* scroll snap */
-@media (max-width:720px ) {
-  .logo, .botones-footer, .copiar{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-  }
-}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
