@@ -18,8 +18,8 @@ html {
   scroll-snap-type: y mandatory;
 }
 /* scroll snap */
-@media (max-width:1200px ) {
-  .output, .logo{
+@media (max-width:720px ) {
+  .botones-footer, .output, .entry input, .logo{
     scroll-snap-align: center;
     scroll-snap-stop: always;
   }
