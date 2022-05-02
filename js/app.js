@@ -44,7 +44,12 @@ function copiarPalabra(){
   encriptado.setSelectionRange(0, 99999);
   // copiamos el texto
   let textoACopiar = encriptado.textContent;
-  navigator.clipboard.writeText(textoACopiar).then(() => alert('copiado al portapapeles'));
+  if(navigator.clipboard) {
+    navigator.clipboard.writeText(textoACopiar).then(() => alert('copiado al portapapeles'));
+  } else {
+    console.log('Navegador no compatible');
+  }
+
 }
 
 // Encripta
