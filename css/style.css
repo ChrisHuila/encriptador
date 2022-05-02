@@ -70,14 +70,16 @@ p{
   margin: 1rem;
   padding: 2.4rem;
   text-align: center;
+  
 }
-.secundario{
+.bSecundario{
   background-color: var(--transparente);
   color: var(--secundario2);
   border: 1px solid var(--secundario2);
 }
 .boton:hover{
   cursor: pointer;
+  transform: scale(1.05);
 }
 /* input word */
 .entry{
@@ -150,9 +152,9 @@ p{
 
 .output{
   width: 40rem;
-  height: 75rem;
+  height: 65rem;
   position: absolute;
-  top: 4rem;
+  top: 1rem;
   right: 4rem;
   border-radius: 1rem;
   background-color: var(--blanco);
@@ -233,7 +235,7 @@ p{
 }
 .encriptado-output textarea{
   width: 33.6rem;
-  height: 60rem;
+  height: 50rem;
   padding-top: 5rem;
   resize: none;
   border: none;
@@ -280,7 +282,7 @@ p{
 }
 
 .characters-output img{
-  margin-top: 15rem;
+  margin-top: 7rem;
 }
 @media (max-width:1200px ) {
   .characters-output img{
@@ -309,7 +311,7 @@ p{
  }
  @media (min-width: 1200px) {
   .footer{
-    bottom: 9rem;
+    bottom: 20rem;
     right: 20rem;
   } 
  }
